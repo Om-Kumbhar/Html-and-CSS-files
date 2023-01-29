@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>Flex Box</title>
+		<style>
+			body{
+				background-color : lightgreen;
+			}
+			.container {
+				/*border : 1px solid black;*/
+				height : 98vh ;
+				display : flex;
+				justify-content: center;
+				align-items : center;
+               
+			}	
+			.login-box {
+			    /* border: 1px solid black; */
+			    text-align: center;
+			    padding: 40px;
+			    background-color: white;
+			}
+			
+			.input-control {
+				    margin-bottom: 20px;
+				    padding-bottom: 15px;
+				    font-size: 15px;
+				    width: 250px;
+				    border: 0px;
+				    border-bottom: 1px solid gray;
+				    padding-left: 3px;
+			}
+			
+			.btn {
+				    width: 250px;
+				    padding: 15px;
+				    border: 0px;
+				    background-color: lightgreen;
+				    color: white;
+				    font-size: 15px;
+				}
+			.reg{
+				color: gray;
+			}
+			.acc{
+				color: green;
+			}
+		</style>
+	</head>
+<body>
+	<div class="container">
+		<div class="login-box">
+			<input type="text" placeholder="Username" class="input-control">
+			<br>
+			<input type="text" placeholder="Password" class="input-control">
+			<br>
+			<button class="btn">Login</button>
+			<br>
+			<span class="reg">Not Registered? </span><span class="acc">Create an account</span>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
